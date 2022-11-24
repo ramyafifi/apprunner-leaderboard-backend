@@ -31,5 +31,5 @@ def root():
   return str(random_json).replace("\'", "\"")
 
 if __name__ == "__main__":
-  app.run()
+  app.run(port=5000)
 
